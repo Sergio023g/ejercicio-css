@@ -1,0 +1,17 @@
+.impar{
+    background-color: #FF3D33;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #par{
+    color: #0800FF;
+    font-size: 36px;
+  }
+/*Chainin selector: Buscas 2 elementos que posean dos o mas clases*/
+  .impar.imparr2{
+    font-size: 24px;
+  }
+  #par.par2{
+    background-color: #3FFF52;
+    font-size: 24px;
+    font-weight: bold;
+  }
