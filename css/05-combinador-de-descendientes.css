@@ -1,0 +1,27 @@
+/*- Solo los elementos p que son descendientes del elemento div deben tener un fondo 
+  amarillo, texto rojo, un tamaño de fuente de 20 px y alineacion al centro
+
+  Autocomprobacion
+
+  Los elementos que contienen el texto "Esto debe tener estilo" tienen los estilos 
+  correctos aplicados?
+
+  Los elementos que contienen el texto "Esto no debe tener estilo" no tienen 
+  estilos aplicados?
+
+<div class="container">
+<p class="text">Este deberia tener estilos</p>
+</div>
+<p class="text">Este no deberia tener estilos</p>
+<p class="text">Este no deberia tener estilos</p>
+<div class="container">
+  <p class="text">Este no deberia tener estilos</p>
+  <p class="text">Este no deberia tener estilos</p>
+</div> */
+
+div p{
+  background-color: yellow;
+  color: #ff0000;
+  font-size: 20px;
+  text-align: center;
+}

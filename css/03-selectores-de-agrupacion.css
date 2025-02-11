@@ -1,8 +1,4 @@
-/*-El primer elemento: un fondo negro y texto blanco
--El segundo elemento: un fondo amarillo
--Ambos elementos:un tamano de fuente de 28px y una lista de fuentes que contienen 'Helvetica' y 'Times
-New Roman' con 'sans-serif' como alternativa*/
-GROUPING SELECTOR
+/*GROUPING SELECTOR*/
 .B1{
   background-color: #000000;
   color: #ffffff;
@@ -10,11 +6,7 @@ GROUPING SELECTOR
 .B2{
   background-color: #ffff00;
 }
-#BB.B1{
-  font-size: 28px;
-  font-family: Helvetica, sans-serif;
-}
-#BB.B2 {
+#BB,.B1,.B2{
   font-size: 28px;
   font-family: Helvetica, sans-serif;
 }
