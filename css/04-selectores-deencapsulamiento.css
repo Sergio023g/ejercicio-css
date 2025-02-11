@@ -1,16 +1,6 @@
-/*Haz que el elemento con las clases avatar y proporcionada tenga 300px de ancho, luego dale una altura para 
-que se converse  sus proporcioes cuadradas originales (no codifiques un valor de pixel para la altura!).
-
-Haz que el elemento con las clases avatar y distorcionada tenga 200px de ancho, luego haz que su altura sea 
-el doble de grande que su ancho (aqui deves codificar el valor de su pixel).
-  -->
-
-  <div>
-    <img class="avatar proportioned" src="../IMG/playa.jpg" alt="playa">
-    <img class="avatar distorcioned" src="../IMG/montana.jpg" alt="montana">
-    <img class="original proportioned" src="../IMG/playa.jpg" alt="playa">
-    <img class="original distorcioned" src="../IMG/montana.jpg" alt="montana">
-  </div>*/
+/*El encadenamiento de selectores en HTML y CSS se refiere a la combinación de múltiples 
+selectores para aplicar estilos a elementos HTML específicos que cumplen con varias condiciones 
+al mismo tiempo. Este método te permite crear reglas de estilo más precisas y específicas.*/
 
   .avatar.proportioned{
     width: 300px;
