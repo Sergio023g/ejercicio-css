@@ -1,3 +1,4 @@
+/*GROUPING SELECTOR*/
 .B1{
   background-color: #000000;
   color: #ffffff;
@@ -5,10 +6,7 @@
 .B2{
   background-color: #ffff00;
 }
-/*El selector de agrupamiento en CSS es una herramienta muy útil para aplicar un mismo estilo a 
-varios elementos HTML de una manera rápida y eficiente. Esto se logra agrupando los selectores que 
-comparten un mismo estilo en una sola regla CSS.*/
-#BB, .B1, .B2{
+.B1,.B2{
   font-size: 28px;
   font-family: Helvetica, sans-serif; 
 }

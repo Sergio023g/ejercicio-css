@@ -3,38 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Combinador de descendientes</title>
-  <meta name="description" content="">
   <link rel="stylesheet" href="../css/05-combinador-de-descendientes.css">
-  <link rel="icon" href="">
+  <title>Combinador de descendientes</title>
 </head>
 <body>
-  <!-- 
-    Entender cómo funcionan los combinadores puede volverse mucho más fácil cuando empiezas a jugar con ellos y ves qué 
-    es exactamente lo que se ve afectado por ellos y qué no. El objetivo de este ejercicio es aplicar estilos a los elementos 
-    que son descendientes de otro elemento, mientras que los elementos que no son descendientes de ese elemento se dejan sin estilo.
 
-    Puedes usar selectores de tipo o clase para este ejercicio; usa el que creas que te gustaria practicar más. El archivo HTML 
-    está configurado (por lo que no es necesario editar nada en él) de tal manera que cualquier combinación de selectores h
-    funcionará, por lo que si te sientes aventurero, incluso puedes intentar combinar un selector de tipo y clase para el 
-    combinador de descendientes. Las propiedades que necesitas agregar son: (:=)
+<!--   
+  Entender como funcionan los combinadores puede volverse mucho mas facil 
+  cuando empiezas a jugar con ellos y ves que exactamente lo que se ve afectado por ellos 
+  y que no.
 
-    - Solo los elementos p que son descendientes del elemento div deben tener un fondo amarillo, texto rojo, un tamaño de
-    fuente de 20 px y alineación al centro.
+  El objetivo de este ejercicio es aplicar estilos a los elementos que son descendientes 
+  de otro elemento, mientras que los elementos que no son descendientes de ese 
+  elemento se dejan sin estilo.
 
-    Autocomprobacion
+  Puedes usar selectores de tipo o clase para este ejercicio; usa el que creas que te 
+  gustaria practicar mas. El archivo HTML esta configurado
+  (por lo que no es necesario editar nada en el) de tal manera que cualquier 
+combinacion de selectores funcionara, por lo que si te sientes aventurero, 
+incluso puedes intentar combinar un selector de tipo y clase para el combinador de 
+descendientes.
 
-    Los elementos que contienen el texto 'Esto debe tener estilo' tienen los estilos correctos aplicados?
-    Los elementos que contienen el texto ' Esto debe tneer estilo' no tienen estilos aplicados?
-  -->
-    <div class="container">
-      <p class="text">Este deberia tener estilos</p>
-    </div>
+  Las propiedades que necesitas agregar son:
+
+  - Solo los elementos p que son descandientes del elemento div deben tener un fondo 
+  amarillo, texto rojo, un tamaño de fuente de 20 px y alineacion al centro
+
+  Autocomprobacion
+
+  Los elementos que contienen el texto "Esto debe tener estilo" tienen los estilos 
+  correctos aplicados?
+
+  Los elementos que contienen el texto "Esto no debe tener estilo" no tienen 
+  estilos aplicados?
+
+Selector tipo: 
+selector de clase
+selector de ID
+-->
+
+  <div class="container">
+    <p class="text">Este deberia tener estilos</p>
+  </div>
     <p class="text">Este no deberia tener estilos</p>
     <p class="text">Este no deberia tener estilos</p>
     <div class="container">
-      <p class="text">Este deberia tener estilos</p>
-      <p class="text">Este deberia tener estilos</p>
+      <p class="text">Este no deberia tener estilos</p>
+      <p class="text">Este no deberia tener estilos</p>
     </div>
+  
 </body>
 </html>

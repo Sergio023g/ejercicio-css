@@ -1,16 +1,29 @@
+/* -Todos los elementos impares: un fondo rojo claro/rosa, y una lista de fuentes que contiene "VERDANA Y "DejaVu Sans"con "sans-serif"
+como alternatva
+-Segundo elemento: Texto azul y tamaño de fuente 36px
+-Tercer elemento: ademas de los estilos de todos los elementos impares, añada un tamaño de fuente de 24px
+-Cuarto elemento: Fondo verde claro, tamaño de fuente de 24px y negrta.
+-->
+
+<p class="impar">Number 1 - Soy una clase!</p>
+<div id="p">Number 2- Soy un ID</div>
+<p class="impar imparr2">Number 3 - Soy una clase, pero mejor</p>
+<div id="p2" class="par2">Number 4 - Soy otro ID</div>
+<p class="impar">Number 5 - Soy una clase!</p>
+ */
 .impar{
     background-color: #FF3D33;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
-  #par{
+  #p{
     color: #0800FF;
     font-size: 36px;
   }
 /*Chainin selector: Buscas 2 elementos que posean dos o mas clases*/
-  .impar.imparr2{
+  .imparr2{
     font-size: 24px;
   }
-  #par.par2{
+  #p2{
     background-color: #3FFF52;
     font-size: 24px;
     font-weight: bold;
